@@ -8,7 +8,7 @@ const handleClick = (event) => {
   if (!email || !password) {
     return alert("Fill the fields");
   }
-  console.log({ email: email, password: password });
+  console.log({ email, password });
   event.currentTarget.reset();
 };
 
